@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    background-color: rgb(250, 243, 184);
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgb(240, 166, 6);
+}
+
+header img {
+    width: 100%;
+    height: 150px;
+}
+nav {
+    width: 20%;
+    float: left;
+  
+}
+#contenido {
+    width: 80%;
+    float: right;
+    padding-bottom: 30px;
+    
+    
+}
+footer {
+    background-color: rgb(73, 102, 4);
+    color: rgb(187, 230, 247);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0px; 
+}
+nav li {
+    list-style-type: none;
+    text-align: center;
+    color: rgb(2, 2, 85);
+    font-size: 22px;
+    border: solid 1px rgb(2, 2, 85);
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+   
+}
+ nav ul li:hover {
+    color: rgb(195, 216, 248);
+    background-color: rgb(73, 102, 4);
+   
+}
+a {
+    text-decoration: none;
+}
+.text-azulo {
+    color:rgb(110, 68, 110);
+}
+
+#home {
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+    color:rgb(136, 91, 136);
+}
+.etiqueta{
+    font-size:34px ;
+    color: rgb(230, 108, 9);
+}
+#tablas table{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+
+}
+#tdefault th{
+    background-color: rgb(15, 15, 107);
+    color:cyan; 
+    font-size: 26px;
+}
+#tdefault td{
+    background-color: cyan;
+    color:rgb(15, 15, 107); 
+    font-size: 20px;
+}
+#tcombi th{
+    background-color:sandybrown;
+    color: sienna;
+    font-size: 26px;
+}
+#tcombi td{
+    background-color: rgb(252, 155, 10);
+    color: rgb(252, 216, 10);
+    font-size: 20px;
+}
+#tParImpar tr:nth-child(odd) td{
+    background-color:rgb(219, 164, 219);
+}
+
+#tParImpar tr:nth-child(even) td{
+    background-color:rgb(245, 146, 240);
+}
+#tParImpar th{
+    background-color: rgb(73, 5, 50);
+    color:rgb(201, 201, 105); 
+    font-size: 26px;
+}
+#thorario table {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #F0F0F0;
+}
+#thorario table, #thorario th, #thorario td{
+    border: solid 1px rgb(71,69,69);
+}
+#thorario th{
+    color: #12887A
+}
+.curso{
+    font-size: 25px;
+    color:#116974; 
+}
+.fol{
+    background-color:#FFD231;
+}
+.sisi{
+    background-color:#C9A0C8 ;
+}
+.ende{
+    background-color:#7F81BA;
+}
+.bdd{
+    background-color:#81FE86 ;
+}
+.ing{
+    background-color:#EFF0C8 ;
+}
+.prog{
+    background-color:#95DD94 ;
+}
+.lmsg{
+    background-color:#FE8081 ;
+}
+.recreo{
+    color: #38717A;
+    font-size:21px;
+}
+#customd li{
+    list-style-type: circle;
+
+}
+#customd li li{
+    list-style-type: disc;
+
+}
+#customd li li li{
+    list-style-type: square;
+
+}
+#customo li{
+    list-style-type: lower-alpha;
+}
+#customo li li{
+    list-style-image:url(../img/corazon16.png) ;
+}
+#customo li li li{
+    list-style-image:none;
+    list-style-type: upper-roman;
+}
+dt{
+    color: brown;
+}
+#puerta{
+   font-size: 20px;
+}
+#ventana{
+    font-size: 20px;
+   
+    
+}
+
+#registro fieldset{
+   width: 60%;
+    background-color: cornflowerblue;
+
+}
+#registro legend{
+    background-color: rgb(126, 201, 231);
+}
+#grande fieldset{
+background-color: cornflowerblue;
+width: 40%;
+}
+#grande legend{
+    background-color: rgb(126, 201, 231);
+}
+#variado{
+    background-color: rgb(57, 159, 167);
+}
+#variado legend{
+    background-color:rgb(126, 201, 231) ;
+}
+
+#video{ 
+    text-align: center;
+ background-color: sandybrown;   
+}
+#audio{
+    text-align: center;
+    background-color: sienna;
+}
+
+
+
